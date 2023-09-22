@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dXjkF3yPLotP/40rGGestV7dtL8y6XPP/AU0ZQ6ZmotQMVBJN2jhNlojj1ym0aByPofVS+0Qz2epyltZwuyUFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Repositories Eduard\\EXCEL-to-PDF-Template-Project\\ExcelToPDF\\ExcelToPDF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\exceldatareader\\3.7.0-develop00385\\exceldatareader.3.7.0-develop00385.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\exceldatareader.dataset\\3.7.0-develop00385\\exceldatareader.dataset.3.7.0-develop00385.nupkg.sha512"
+  ],
+  "logs": []
+}
