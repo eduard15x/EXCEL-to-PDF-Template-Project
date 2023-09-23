@@ -10,6 +10,16 @@
   <ItemGroup>
     <PackageReference Include="ExcelDataReader" Version="3.7.0-develop00385" />
     <PackageReference Include="ExcelDataReader.DataSet" Version="3.7.0-develop00385" />
+    <PackageReference Include="GrapeCity.Documents.Html" Version="6.2.2" />
+    <PackageReference Include="IronPdf" Version="2023.9.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0-rc.1.23419.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0-rc.1.23419.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
