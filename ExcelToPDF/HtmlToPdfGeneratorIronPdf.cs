@@ -13,7 +13,7 @@ namespace ExcelToPDF
                 .Build();
 
             // Get the value from appsettings.json
-            string apiKey = configuration["IronPdf.LicenseKey"];
+            string apiKey = configuration["IronPdf.LicenseKey"]!;
 
             if (string.IsNullOrEmpty(apiKey))
             {
