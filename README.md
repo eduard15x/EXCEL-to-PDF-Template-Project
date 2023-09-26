@@ -28,4 +28,6 @@ EXAMPLE\
 Red borders shown the dynamic data coming from excel that complete the spaces in the PDF.\
 You need to add in HTML template created the variable and the place where you want to modify them.
 ![image](https://github.com/eduard15x/EXCEL-to-PDF-Template-Project/assets/89576994/8ab76053-1d17-4d14-ad5b-2cc3365cad7c)
-![image](https://github.com/eduard15x/EXCEL-to-PDF-Template-Project/assets/89576994/77d7a3a9-5fd2-4355-acdb-880797151d0f)
+![image](https://github.com/eduard15x/EXCEL-to-PDF-Template-Project/assets/89576994/87787119-6867-4c42-b4e3-fdc1a03eb666)
+![image](https://github.com/eduard15x/EXCEL-to-PDF-Template-Project/assets/89576994/2d264b26-04a0-4b60-9272-696fa9172bdf)
+
