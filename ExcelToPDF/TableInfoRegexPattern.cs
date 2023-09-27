@@ -8,7 +8,7 @@ namespace ExcelToPDF
         private const string ContractNumberPattern = @"^\d+$";
         private const string EmployeeNamePattern = @"^[A-Za-z\s\-]+$";
         private const string EmployeeIdPattern = @"^\d{13}$";
-        private const string EmployeeAddressPattern = @"^STR\.\s[A-Za-z\s\.,0-9-]+,\s(?:[Nn][Rr]\.\s[A-Za-z0-9\s\.-]+,)?\s[A-Za-z\s\.,]+,\s[A-Za-z\s]+$";
+        // private const string EmployeeAddressPattern = @"^STR\.\s[A-Za-z\s\.,0-9-]+,\s(?:[Nn][Rr]\.\s[A-Za-z0-9\s\.-]+,)?\s[A-Za-z\s\.,]+,\s[A-Za-z\s]+$";
 
         public bool CheckDocumentNumber(string documentNumber)
         {
@@ -50,15 +50,14 @@ namespace ExcelToPDF
             return Regex.IsMatch(employeeId, EmployeeIdPattern);
         }
 
-        public bool CheckEmployeeAddress(string employeeAddress)
-        {
-            if (string.IsNullOrWhiteSpace(employeeAddress) || string.IsNullOrEmpty(employeeAddress))
-            {
-                return false;
-            }
+        //public bool CheckEmployeeAddress(string employeeAddress)
+        //{
+        //    if (string.IsNullOrWhiteSpace(employeeAddress) || string.IsNullOrEmpty(employeeAddress))
+        //    {
+        //        return false;
+        //    }
 
-            return Regex.IsMatch(employeeAddress, EmployeeAddressPattern);
-        }
-
+        //    return Regex.IsMatch(employeeAddress, EmployeeAddressPattern);
+        //}
     }
 }

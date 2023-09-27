@@ -29,11 +29,13 @@ namespace ExcelToPDF
             }
         }
 
-        public void GeneratePDF(int pdfFileNumber, string pdfFileName, string htmlTemplate)
+        public void GeneratePDF(int pdfFileNumber, string pdfFileName, string htmlTemplate, string outputDirectory)
         {
             ChromePdfRenderer renderer = new ChromePdfRenderer();
             PdfDocument pdf = renderer.RenderHtmlAsPdf(htmlTemplate);
-            pdf.SaveAs($"{pdfFileNumber}_{pdfFileName}.pdf");
+
+            string outputPath = Path.Combine(outputDirectory, $"{pdfFileNumber}_{pdfFileName}.pdf");
+            pdf.SaveAs(outputPath);
         }
     }
 }
